@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "dashboard-designer"
+    }
+  },
+  "defaultProject": "dashboard-designer",
+  "cli": {
+    "analytics": false
+  }
 }
