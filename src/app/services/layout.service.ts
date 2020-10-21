@@ -38,4 +38,8 @@ export class LayoutService {
     const item = this.layout.find(d => d.id === id);
     this.layout.splice(this.layout.indexOf(item), 1);
   }
+
+  openSettingModal(){
+
+  }
 }

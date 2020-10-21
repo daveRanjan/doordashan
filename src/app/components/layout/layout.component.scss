@@ -5,3 +5,25 @@ gridster {
   height: 40vw;
   width: 90vw;
 }
+
+.content-container{
+width: 100%;
+height: 100%;
+align-items: center;
+display: flex;
+justify-content: center;
+
+}
+.btn-container{
+  display: flex;
+  align-items: center;
+}
+
+.btn-container button{
+  margin : 0 10px ;
+}
+.sticky{
+  position: fixed  ;
+  bottom: 58px;
+  right: 71px;
+}
