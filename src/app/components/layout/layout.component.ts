@@ -11,6 +11,8 @@ import { LayoutService } from '../../services/layout.service';
 export class LayoutComponent implements OnInit {
   dashboard: Array<GridsterItem>;
 
+  constructor(public layoutService: LayoutService) {}
+
   get options(): GridsterConfig {
     return this.layoutService.options;
   }
@@ -19,8 +21,7 @@ export class LayoutComponent implements OnInit {
     return this.layoutService.layout;
   }
 
-  constructor(public layoutService: LayoutService) {
-  }
+  
 
   ngOnInit(): void {
 

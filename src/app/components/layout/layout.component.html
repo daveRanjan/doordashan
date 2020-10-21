@@ -1,12 +1,21 @@
-<div class="toolbar">
-  <button (click)="layoutService.addItem()">Add Item</button>
-</div>
 <gridster [options]="options">
   <gridster-item *ngFor="let item of layout" [item]="item">
-    <button
-      (click)="layoutService.deleteItem(item)"
-    >
-      Delete Item
-    </button>
+    <div class="content-container">
+      <div class="btn-container">
+  
+        <button mat-mini-fab color="primary" aria-label="Delete widget" (click)="layoutService.deleteItem(item)">
+          <mat-icon>settings</mat-icon>
+        </button>
+
+        <button mat-mini-fab color="primary" aria-label="Open setting modal" (click)="layoutService.openSettingModal()">
+          <mat-icon>delete</mat-icon>
+        </button>
+      </div>
+    </div>
   </gridster-item>
 </gridster>
+
+
+<button mat-fab color="primary" aria-label="Add widget" class="sticky" (click)="layoutService.addItem()">
+  <mat-icon>add</mat-icon>
+</button>
