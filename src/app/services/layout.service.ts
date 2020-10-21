@@ -12,7 +12,7 @@ export class LayoutService {
     },
     pushItems: false,
     resizable: {
-      enabled: false
+      enabled: true
     },
     gridType: 'fixed',
     displayGrid: 'always',
