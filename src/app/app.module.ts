@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { LayoutComponent } from './components/layout/layout.component';
 
 import {GridsterModule} from 'angular-gridster2';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSliderModule } from '@angular/material/slider';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import {GridsterModule} from 'angular-gridster2';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    GridsterModule
+    GridsterModule,
+    BrowserAnimationsModule,
+    MatSliderModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
