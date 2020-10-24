@@ -12,7 +12,7 @@ export class LayoutService {
     },
     pushItems: false,
     resizable: {
-      enabled: false
+      enabled: true
     },
     gridType: 'fixed',
     displayGrid: 'always',
@@ -37,5 +37,9 @@ export class LayoutService {
   deleteItem(id): void {
     const item = this.layout.find(d => d.id === id);
     this.layout.splice(this.layout.indexOf(item), 1);
+  }
+
+  openSettingModal(){
+
   }
 }
