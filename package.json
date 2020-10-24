@@ -23,6 +23,7 @@
     "@angular/router": "~10.0.14",
     "angular-gridster2": "^10.1.6",
     "angular2-uuid": "^1.1.1",
+    "npm": "^6.14.8",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3"
