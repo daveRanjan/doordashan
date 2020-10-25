@@ -12,8 +12,8 @@ import { MatButtonModule } from '@angular/material/button' ;
 import { MatIconModule} from '@angular/material/icon' ;
 import {MatDialogModule} from '@angular/material/dialog';
 import { WidgetSettingsComponent } from './components/widget-settings/widget-settings.component';
-
-
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatMenuModule} from '@angular/material/menu';
 
 @NgModule({
   declarations: [
@@ -29,7 +29,9 @@ import { WidgetSettingsComponent } from './components/widget-settings/widget-set
     MatSliderModule,
     MatButtonModule,
     MatIconModule,
-    MatDialogModule
+    MatDialogModule,
+    MatToolbarModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
