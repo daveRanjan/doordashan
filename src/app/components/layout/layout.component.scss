@@ -3,7 +3,7 @@ button {
 }
 gridster {
   height: 40vw;
-  width: 90vw;
+  width: 100vw;
 }
 
 .content-container{
@@ -26,4 +26,9 @@ justify-content: center;
   position: fixed  ;
   bottom: 58px;
   right: 71px;
+}
+
+.content-area{
+  width:100% ;
+  height: auto;;
 }
