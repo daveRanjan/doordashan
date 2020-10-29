@@ -1,5 +1,5 @@
 # Doordashan
-This repository is aimed at taking a **"dashboards"** a step back i.e. from static view to more dynamic view OR towards configurable view.
+This repository is aimed at taking **"dashboards"** a step back i.e. from static views to more dynamic views OR towards configurable views.
 
 
 ### Technology
