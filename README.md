@@ -1,27 +1,20 @@
-# DashboardDesigner
+# Doordashan
+This repository is aimed at taking a **"dashboards"** a step back i.e. from static view to more dynamic view OR towards configurable view.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.8.
 
-## Development server
+### Technology
+Currently we have started with **Angular Material**, but we are not restricted with that only.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Installation 
+```sh
+$ cd Doordashan
+$ npm install --save
+$ ng serve
+```
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Contributing
+Contributors are welcome to add values to this project, we are actively adding tickets and issues in the repository project board. Feel free to add issues and PR.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Note : 
+We are at very intial stage of brainstorming and developments, you are welcome to fork or to raise issue to add value to this project.
